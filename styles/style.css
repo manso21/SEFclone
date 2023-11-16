@@ -1,13 +1,3 @@
-body {
-  background-color: #363738;
-  font-family: Noto Sans Mono, sans-serif;
-  font-size: 1rem;
-  line-height: 1;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  display: block;
-}
-
 .parent-container {
   display: flex;
   flex-direction: column;
@@ -78,7 +68,6 @@ p {
   display: block;
   font-size: 14px;
   line-height: 1.5;
-  font-weight: 400;
   text-align: left;
 }
 
@@ -122,4 +111,62 @@ a {
   text-align: left;
   font-size: 22px;
   line-height: 1.4;
+}
+
+/* FAQs Section */
+.faqs {
+  margin-top: 200px;
+}
+.faq-container {
+  border-radius: 20px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 40px;
+  grid-row-gap: 24px;
+}
+
+.faq-card {
+  background-color: #232323;
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 20px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.faq-content-fixed {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 800;
+}
+
+.bi .bi-chevron-down {
+  color: white;
+}
+
+.black-bg {
+  background-color: #232323;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+.hidden-content {
+  display: none;
+  font-weight: 300;
+  padding-right: 24px;
+  padding-top: 1rem;
+  line-height: 1.6;
+}
+
+.hidden-content ul {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 24px;
 }
